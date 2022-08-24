@@ -14,14 +14,13 @@ env:
   TAG: 1.0.0
 
 jobs:
-  
-  setup-build-publish-deploy:
-    name: Setup Build Publish Deploy
-    runs-on: ubuntu-latest
-  # Add "id-token" with the intended permissions.
-  permissions:
-    contents: 'read'
-    id-token: 'write'
+    setup-build-publish-deploy:
+      name: Setup Build Publish Deploy
+      runs-on: ubuntu-latest
+    # Add "id-token" with the intended permissions.
+    permissions:
+      contents: 'read'
+      id-token: 'write'
 
     steps:
 
