@@ -43,7 +43,6 @@ jobs:
           workload_identity_provider: 'projects/48377618216/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
           service_account: 'my-service-account@javelin-sample-proj.iam.gserviceaccount.com'
 
-
       - name: Configure Docker
         run: |-
           gcloud --quiet auth configure-docker
